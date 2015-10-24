@@ -1,4 +1,4 @@
-(Please read in raw format)
+(Please read in raw format in Github)
 
 The Variable Fields in Task5_FinalData.txt
 =============================================
