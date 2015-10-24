@@ -1,3 +1,4 @@
+### (Please read in raw format in Github)
 ### Accelerometer and Gyroscope field variable names imported from "features.txt"
 features<-read.table("UCI HAR Dataset/features.txt")
 descriptions<-as.character(features[,2])
