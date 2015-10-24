@@ -47,7 +47,7 @@ CompleteData<-cbind(Combination3, Combination2, Combination1)
 ### Mean is extracted from "CompleteData" for each activity and each unique volunteer,
 ### and summarized data is output as a file in defined working directory called "Task5_FinalData.txt"
 SegmentedData<-aggregate(CompleteData[,3:563], list(Activity = CompleteData[,2], VolunteerID = CompleteData[,1]),mean)
-write.table(SegmentedData, "Task5_FinalData.txt", sep=" ", row.names = FALSE)
+write.table(SegmentedData, "Task5_FinalData.txt", sep=" ", row.name = FALSE)
 
 
 
